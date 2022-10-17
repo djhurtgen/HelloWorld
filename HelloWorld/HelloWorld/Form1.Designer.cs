@@ -39,6 +39,7 @@
             this.checkLive = new System.Windows.Forms.CheckBox();
             this.checkDie = new System.Windows.Forms.CheckBox();
             this.bttnSubmit = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -157,11 +158,22 @@
             this.bttnSubmit.UseVisualStyleBackColor = true;
             this.bttnSubmit.Click += new System.EventHandler(this.bttnSubmit_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox2.Location = new System.Drawing.Point(264, 236);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(567, 142);
+            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Big ole GroupBox";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(886, 504);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.bttnSubmit);
             this.Controls.Add(this.checkDie);
             this.Controls.Add(this.checkLive);
@@ -188,6 +200,7 @@
         private System.Windows.Forms.CheckBox checkLive;
         private System.Windows.Forms.CheckBox checkDie;
         private System.Windows.Forms.Button bttnSubmit;
+        private System.Windows.Forms.GroupBox groupBox2;
 =======
 >>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
     }
