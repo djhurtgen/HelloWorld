@@ -32,7 +32,6 @@
             this.textAddress = new System.Windows.Forms.TextBox();
             this.textName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
             this.rdFemale = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.rdMale = new System.Windows.Forms.RadioButton();
@@ -40,16 +39,6 @@
             this.checkLive = new System.Windows.Forms.CheckBox();
             this.checkDie = new System.Windows.Forms.CheckBox();
             this.bttnSubmit = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-=======
-            this.label2 = new System.Windows.Forms.Label();
-            this.listCity = new System.Windows.Forms.ListBox();
-            this.rdMale = new System.Windows.Forms.RadioButton();
-            this.rdFemale = new System.Windows.Forms.RadioButton();
-            this.checkLive = new System.Windows.Forms.CheckBox();
-            this.checkDie = new System.Windows.Forms.CheckBox();
-            this.bttnSubmit = new System.Windows.Forms.Button();
->>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +81,6 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Address";
             // 
-<<<<<<< HEAD
             // rdFemale
             // 
             this.rdFemale.AutoSize = true;
@@ -104,8 +92,6 @@
             this.rdFemale.Text = "Female";
             this.rdFemale.UseVisualStyleBackColor = true;
             // 
-=======
->>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
             // label2
             // 
             this.label2.AutoSize = true;
@@ -115,7 +101,6 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Name";
             // 
-<<<<<<< HEAD
             // rdMale
             // 
             this.rdMale.AutoSize = true;
@@ -127,8 +112,6 @@
             this.rdMale.Text = "Male";
             this.rdMale.UseVisualStyleBackColor = true;
             // 
-=======
->>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
             // listCity
             // 
             this.listCity.FormattingEnabled = true;
@@ -144,31 +127,6 @@
             this.listCity.TabIndex = 4;
             this.listCity.SelectedIndexChanged += new System.EventHandler(this.listCity_SelectedIndexChanged);
             // 
-<<<<<<< HEAD
-=======
-            // rdMale
-            // 
-            this.rdMale.AutoSize = true;
-            this.rdMale.Location = new System.Drawing.Point(6, 104);
-            this.rdMale.Name = "rdMale";
-            this.rdMale.Size = new System.Drawing.Size(58, 20);
-            this.rdMale.TabIndex = 5;
-            this.rdMale.TabStop = true;
-            this.rdMale.Text = "Male";
-            this.rdMale.UseVisualStyleBackColor = true;
-            // 
-            // rdFemale
-            // 
-            this.rdFemale.AutoSize = true;
-            this.rdFemale.Location = new System.Drawing.Point(6, 130);
-            this.rdFemale.Name = "rdFemale";
-            this.rdFemale.Size = new System.Drawing.Size(74, 20);
-            this.rdFemale.TabIndex = 6;
-            this.rdFemale.TabStop = true;
-            this.rdFemale.Text = "Female";
-            this.rdFemale.UseVisualStyleBackColor = true;
-            // 
->>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
             // checkLive
             // 
             this.checkLive.AutoSize = true;
@@ -199,28 +157,11 @@
             this.bttnSubmit.UseVisualStyleBackColor = true;
             this.bttnSubmit.Click += new System.EventHandler(this.bttnSubmit_Click);
             // 
-<<<<<<< HEAD
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.groupBox2.Location = new System.Drawing.Point(232, 236);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(183, 203);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Nothing to see here.";
-            // 
-=======
->>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(886, 504);
-<<<<<<< HEAD
-            this.Controls.Add(this.groupBox2);
-=======
->>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
             this.Controls.Add(this.bttnSubmit);
             this.Controls.Add(this.checkDie);
             this.Controls.Add(this.checkLive);
@@ -247,8 +188,6 @@
         private System.Windows.Forms.CheckBox checkLive;
         private System.Windows.Forms.CheckBox checkDie;
         private System.Windows.Forms.Button bttnSubmit;
-<<<<<<< HEAD
-        private System.Windows.Forms.GroupBox groupBox2;
 =======
 >>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
     }
