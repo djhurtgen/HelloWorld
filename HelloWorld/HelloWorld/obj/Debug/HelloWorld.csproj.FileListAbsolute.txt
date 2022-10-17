@@ -1,0 +1,15 @@
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Form1.resources
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.cache
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.manifest
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\bin\Debug\HelloWorld.application
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe.manifest
+C:\Users\david\Documents\Fredonia Course Materials and Files\Fall 2022\CSIT 425\VS\HelloWorld\HelloWorld\obj\Debug\HelloWorld.application
