@@ -29,5 +29,18 @@ namespace HelloWorld
             String address = textAddress.Text;
             MessageBox.Show(name + " " + address);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Object[] dataGridViewRowObject1 = new Object[] { "001", "Hurtgen", "David", "Active" };
+            Object[] dataGridViewRowObject2 = new Object[] { "002", "Goetz", "Emma", "Inactive" };
+            Object[] dataGridViewRowObject3 = new Object[] { "003", "Perry", "Nate", "Overdue" };
+            Object[] dataGridViewRowObject4 = new Object[] { "004", "Panosky", "Renaldin", "Frozen" };
+
+            dataGridView1.Rows.Add(dataGridViewRowObject1);
+            dataGridView1.Rows.Add(dataGridViewRowObject2);
+            dataGridView1.Rows.Add(dataGridViewRowObject3);
+            dataGridView1.Rows.Add(dataGridViewRowObject4);
+        }
     }
 }
