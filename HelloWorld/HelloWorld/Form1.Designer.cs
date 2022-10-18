@@ -1,4 +1,6 @@
-﻿namespace HelloWorld
+﻿using System.Windows.Forms;
+
+namespace HelloWorld
 {
     partial class Form1
     {
@@ -39,8 +41,13 @@
             this.checkLive = new System.Windows.Forms.CheckBox();
             this.checkDie = new System.Windows.Forms.CheckBox();
             this.bttnSubmit = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -158,22 +165,52 @@
             this.bttnSubmit.UseVisualStyleBackColor = true;
             this.bttnSubmit.Click += new System.EventHandler(this.bttnSubmit_Click);
             // 
-            // groupBox2
+            // dataGridView1
             // 
-            this.groupBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox2.Location = new System.Drawing.Point(264, 236);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(567, 142);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Big ole GroupBox";
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4});
+            this.dataGridView1.Location = new System.Drawing.Point(202, 236);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(554, 149);
+            this.dataGridView1.TabIndex = 11;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "member_id";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "member_lname";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "member_fname";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "member_status";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(886, 504);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.bttnSubmit);
             this.Controls.Add(this.checkDie);
             this.Controls.Add(this.checkLive);
@@ -181,8 +218,10 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,9 +239,13 @@
         private System.Windows.Forms.CheckBox checkLive;
         private System.Windows.Forms.CheckBox checkDie;
         private System.Windows.Forms.Button bttnSubmit;
-        private System.Windows.Forms.GroupBox groupBox2;
-=======
->>>>>>> 903298537cf1a2bf4a41ad08fdd1c045022535ea
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private DataGridViewCellEventHandler dataGridView1_CellContentClick;
+        private DataGridViewCellEventHandler dataGridView1_CellContentClick_1;
     }
 }
 
